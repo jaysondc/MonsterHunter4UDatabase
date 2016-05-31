@@ -42,7 +42,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/list_item"
-            android:animateLayoutChanges="true"
+            android:animateLayoutChanges="false"
             android:minHeight="48dp">
 
             <TextView
@@ -75,7 +75,7 @@
             android:layout_height="wrap_content"
             android:visibility="gone"
             tools:visibility="visible"
-            android:animateLayoutChanges="true"
+            android:animateLayoutChanges="false"
             style="@style/list_item"
             android:minHeight="48dp">
 
@@ -113,14 +113,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/list_item"
-            android:animateLayoutChanges="true"
+            android:animateLayoutChanges="false"
             android:minHeight="48dp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 style="@style/text_medium"
-                android:animateLayoutChanges="true"
+                android:animateLayoutChanges="false"
                 android:layout_gravity="center_vertical"
                 android:text="Traps"/>
 
@@ -147,7 +147,7 @@
             android:visibility="gone"
             tools:visibility="visible"
             style="@style/list_item"
-            android:animateLayoutChanges="true"
+            android:animateLayoutChanges="false"
             android:minHeight="48dp">
 
             <TextView
@@ -184,7 +184,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/list_item"
-            android:animateLayoutChanges="true"
+            android:animateLayoutChanges="false"
             android:minHeight="48dp">
 
             <TextView
@@ -217,7 +217,7 @@
             android:visibility="gone"
             tools:visibility="visible"
             style="@style/list_item"
-            android:animateLayoutChanges="true"
+            android:animateLayoutChanges="false"
             android:minHeight="48dp">
 
             <TextView
@@ -268,7 +268,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
-                android:animateLayoutChanges="true"
+                android:animateLayoutChanges="false"
                 android:orientation="vertical"
                 android:layout_below="@+id/ailments_label">
 
@@ -323,7 +323,7 @@
                 android:maxLines="100"
                 android:scrollHorizontally="false"
                 android:layout_below="@id/moves_label"
-                android:animateLayoutChanges="true"
+                android:animateLayoutChanges="false"
                 tools:text="Mandible attack, Web shot, Abdomen sting" />
 
         </RelativeLayout>

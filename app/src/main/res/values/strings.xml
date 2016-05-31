@@ -42,7 +42,7 @@
 
     <!-- CONFIRM EXIT -->
     <string name="exit_title">Abandon Quest</string>
-    <string name="exit_dialog">Stop the Quest and return to town?</string>
+    <string name="exit_dialog">Stop the quest and return to town?</string>
     <string name="exit_confirm">Yes</string>
     <string name="exit_cancel">No</string>
 
